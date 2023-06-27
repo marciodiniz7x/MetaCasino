@@ -5,13 +5,20 @@
 }
 
 body {
-    background-color: #212121;
+    background-color: #140236;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    border: 1px solid;
+    width: 100vw;
+    height: 400px;
+    
 }
 
 h1 {
