@@ -31,21 +31,21 @@ header {
     margin-top: 20px;  
     text-shadow: 1px 1px 20px rgb(238, 117, 238);
     font-size: 2.3em;
-    animation:  brilho 2s linear infinite;
+    animation:  brilho 3s linear infinite;
 }
 
-@keyframes identifier {
+@keyframes brilho {
 
     0% {
         text-shadow: 1px 1px 20px rgb(238, 117, 238);
     }
 
     50% {
-        text-shadow: 1px 1px 20px rgb(238, 117, 238);
+        text-shadow: 1px 1px 20px rgb(55, 236, 212);
     }
 
     100% {
-        text-shadow: 1px 1px 20px rgb(238, 117, 238);
+        text-shadow: 1px 1px 20px rgb(250, 151, 85);
     }
 
 }
